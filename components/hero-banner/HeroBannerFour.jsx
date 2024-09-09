@@ -68,16 +68,13 @@ const HeroBannerFour = () => {
                 className="shapes shape-three"
               />
             </div>
-            <p className="review-text">
-              Over <span>150,000+ client</span> all over the world.
-            </p>
           </div>
           {/* End .col */}
 
           <div className="col-lg-6 order-lg-first">
             <div className="text-wrapper">
               <h1 data-aos="fade-up" data-aos-duration="1200">
-                <span>Cleaning services</span> In the San Diego area.
+                Cleaning services In the San Diego area.
               </h1>
               <p
                 className="sub-text"
