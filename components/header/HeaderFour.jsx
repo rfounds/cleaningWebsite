@@ -42,7 +42,7 @@ const HeaderFour = () => {
               <Image
                 width={100}
                 height={100}
-                src="/images/logo/foundwellServicesLogo.svg"
+                src="../images/FoundwellNoText2.0.svg"
                 alt="Foundwell Services logo"
               />
             </Link>

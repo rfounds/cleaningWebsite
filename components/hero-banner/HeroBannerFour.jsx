@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HeroBannerFour = () => {
   return (
-    <div className="hero-banner-four">
+    <div className="hero-banner-four background-image">
       <Image
         width="213"
         height="86"
@@ -38,36 +38,13 @@ const HeroBannerFour = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 order-lg-last">
-            <div className="illustration-holder">
               <Image
-                src="/images/ag1.svg"
+                src="/images/dining.jpg"
                 alt="shape"
                 className="illustration"
                 width={660}
                 height={471}
               />
-              <Image
-                src="/images/foundwellServicesSponge.svg"
-                width={83}
-                height={102}
-                alt="shape"
-                className="shapes shape-one"
-              />
-              <Image
-                width="83"
-                height="98"
-                src="/images/foundwellServicesDuster.svg"
-                alt="shape"
-                className="shapes shape-two"
-              />
-              <Image
-                width="88"
-                height="107"
-                src="/images/foundwellServicesGloves.svg"
-                alt="shape"
-                className="shapes shape-three"
-              />
-            </div>
           </div>
           {/* End .col */}
 

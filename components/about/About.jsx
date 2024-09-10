@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="row align-items-center">
       <div className="col-lg-6" data-aos="fade-right" data-aos-duration="1200">
-        <Image width={550} height={649} style={{height:'fit-content'}}     src="/images/media/img_57.png" alt="about" className="m-auto" />
+        <Image width={550} height={649} style={{height:'fit-content'}}     src="/images/livingroom.jpg" alt="about" className="m-auto" />
       </div>
       {/* End .col */}
 

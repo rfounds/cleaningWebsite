@@ -12,6 +12,7 @@ import FaqFour from "../components/faq/FaqFour";
 import FooterFour from "../components/footer/FooterFour";
 import CallToActionFive from "../components/call-to-action/CallToActionFive";
 import Image from "next/image";
+import './globals.css';
 
 export const metadata = {
   title: "Foundwell Services",
@@ -150,7 +151,7 @@ export default function Home() {
      =============================================
 				Pricing Section Three
 		============================================== */}
-      <div className="pricing-section-three mt-250 mb-200 md-mt-150 md-mb-150">
+      {/* <div className="pricing-section-three mt-250 mb-200 md-mt-150 md-mb-150">
         <Image
           width={13}
           height={18}
@@ -206,12 +207,12 @@ export default function Home() {
 
           <div className="pricing-table-area-three">
             <PricingThree />
-          </div>
+          </div> */}
           {/* /.pricing-table-area-three */}
-        </div>
+{/*         </div> */}
         {/* ./container */}
-      </div>
-      {/* /.pricing-section-three */}
+{/*       </div>
+      /.pricing-section-three */}
 
       {/* 
      =============================================
