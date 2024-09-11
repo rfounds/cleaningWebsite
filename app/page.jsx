@@ -4,7 +4,7 @@ import Link from "next/link";
 import Header from "../components/header/HeaderFour";
 import HeroBannerFour from "../components/hero-banner/HeroBannerFour";
 import About from "../components/about/About";
-import FeatureNine from "../components/features/FeatureNine";
+import FancyFeatureEight from "../components/features/FancyFeatureEleven";
 import Faq from "../components/faq/Faq";
 import PricingThree from "../components/pricing/PricingThree";
 import TestimonialThree from "../components/testimonial/TestimonialThree";
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           {/* End title */}
 
-          <FeatureNine />
+          <FancyFeatureEight />
         </div>
       </div>
       {/* /.fancy-feature-nine */}

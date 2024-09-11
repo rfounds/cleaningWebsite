@@ -3,18 +3,18 @@ import Image from "next/image";
 const FeatureContent = [
   {
     icon: "60",
-    meta: "Smart popups",
-    subTitle: `Create customized popups and show the message at the lorem`,
+    meta: "Contact Us",
+    subTitle: `Message us directly and get a response within 24 hours.`,
   },
   {
     icon: "61",
-    meta: "Embeded Forms",
-    subTitle: `Collect website leads with embedded forms and integrate easily.`,
+    meta: "Register Here",
+    subTitle: `Complete a breif form to get started with our services.`,
   },
   {
     icon: "62",
-    meta: "Autoresponder",
-    subTitle: `Send welcome email to your new subscribers with a code.`,
+    meta: "Free Quote",
+    subTitle: `Recieve your free quote the next day.`,
   },
 ];
 
