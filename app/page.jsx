@@ -4,7 +4,7 @@ import Link from "next/link";
 import Header from "../components/header/HeaderFour";
 import HeroBannerFour from "../components/hero-banner/HeroBannerFour";
 import About from "../components/about/About";
-import FancyFeatureEight from "../components/features/FancyFeatureEleven";
+import FancyFeatureEleven from "../components/features/FancyFeatureEleven";
 import Faq from "../components/faq/Faq";
 import PricingThree from "../components/pricing/PricingThree";
 import TestimonialThree from "../components/testimonial/TestimonialThree";
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       {/* End  .fancy-text-block-nineteen*/}
 
-      <div className="fancy-feature-nine">
+      <div className="fancy-feature-nine py-0">
         <Image
           width={14}
           height={19}
@@ -84,15 +84,7 @@ export default function Home() {
         />
 
         <div className="container">
-          <div className="title-style-five text-center mb-60 md-mb-30">
-            <h6>GET STARTED IN MINUTES</h6>
-            <h2>
-              <span>3 simple & easy step to launch.</span>
-            </h2>
-          </div>
-          {/* End title */}
-
-          <FancyFeatureEight />
+          <FancyFeatureEleven />
         </div>
       </div>
       {/* /.fancy-feature-nine */}
