@@ -102,13 +102,11 @@ export default function Home() {
               data-aos-duration="1200"
             >
               <div className="title-style-five mb-35">
-                <h6>Why choose us</h6>
                 <h2>
                   <span>Why you should</span> choose us?
                 </h2>
               </div>
               {/* End title */}
-              <Faq />
             </div>
 
             <div
@@ -200,10 +198,10 @@ export default function Home() {
           <div className="pricing-table-area-three">
             <PricingThree />
           </div> */}
-          {/* /.pricing-table-area-three */}
-{/*         </div> */}
-        {/* ./container */}
-{/*       </div>
+      {/* /.pricing-table-area-three */}
+      {/*         </div> */}
+      {/* ./container */}
+      {/*       </div>
       /.pricing-section-three */}
 
       {/* 

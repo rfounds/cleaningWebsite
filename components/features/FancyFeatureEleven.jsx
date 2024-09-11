@@ -9,7 +9,7 @@ import Image from "next/image";
 const FancyFeatureEleven = () => {
   return (
     <>
-      <div className="block-style-sixteen mt-0 mb-0">
+      <div className="block-style-sixteen mt-0 mb-0 py-0">
         <div className="container">
           <div className="row">
             <div
@@ -24,8 +24,8 @@ const FancyFeatureEleven = () => {
             </div>
           </div>
         </div>
-        <Image  width={765} height={745}
-        style={{height:'fit-content'}}
+        <Image width={765} height={745}
+          style={{ height: 'fit-content' }}
           src="/images/kitchen.jpg"
           alt="image"
           className="shapes screen-one"
