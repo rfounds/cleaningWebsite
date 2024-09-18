@@ -22,7 +22,7 @@ const About = () => {
           <p className="font-rubik">
             Whether you're a real estate agent, property manager, or homeowner preparing to list a property, our dedicated team is here to ensure every space shines.We aim to answer any query in less than 10 minutes.
           </p>
-          <div className="name font-slab">Emily Founds, Owner</div>
+          <div className="name font-slab">Ema Founds, Owner</div>
         </div>
         {/* /.text-wrapper */}
       </div>

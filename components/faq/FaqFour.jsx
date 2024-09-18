@@ -12,39 +12,34 @@ import {
 
 const FaqContent = [
   {
-    title: "How does the free trial work?",
-    desc: `mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.`,
+    title: "Pre-listing Cleaning",
+    desc: `Prepare properties to impress potential buyers or renters.`,
     expand: "a",
   },
   {
-    title: "How do you weigh different criteria in your process?",
-    desc: `mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.`,
+    title: "Move-In/Move-Out Cleaning",
+    desc: `Ensure properties are move-in ready or restored to pristine condition after a tenant departs.`,
     expand: "b",
   },
   {
-    title: " What does First Round look for in an idea?",
-    desc: `mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.`,
+    title: "Vacant Property Cleaning",
+    desc: `Maintain cleanliness in vacant homes to aid in faster sales or rentals.`,
     expand: "c",
   },
   {
-    title: "	What do you look for in a founding team?",
-    desc: `mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.`,
+    title: "Open House Cleaning",
+    desc: `Make a lasting impression during open houses with our thorough cleaning services.`,
     expand: "d",
   },
   {
-    title: " Do you recommend Pay as you go or Pre pay?",
-    desc: `mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.`,
+    title: "Post-Construction Cleaning",
+    desc: `Remove debris and dust to reveal the true potential of newly constructed or renovated spaces.`,
     expand: "e",
   },
   {
-    title: " Can I pass the fees on to my customers?",
-    desc: `mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.`,
+    title: "Airbnb Cleaning Services",
+    desc: `At Foundwell Services we ensure that your Airbnb property is immaculately clean and inviting for every guest arrival. With our dedicated team and tailored cleaning approach, we strive to help you achieve outstanding guest satisfaction and maximize your rental income.`,
     expand: "f",
-  },
-  {
-    title: "Roem ipsum dummy  here will some questions?",
-    desc: `mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.`,
-    expand: "g",
   },
 ];
 

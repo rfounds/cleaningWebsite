@@ -20,16 +20,20 @@ export default function TestimonialThree() {
 
   const TestimonilContent = [
     {
-      desc: ` Having a home based business is a wonderful asset to your life. The problem still stands it comes time advertise your business for a cheap cost. I know you have looked answer everywhere.`,
-      reviewerName: "Jannatul Ekra",
-      designation: "Designer",
+      desc: `Foundwell is such a breath of fresh air and a beautifully run company. Emily and her team of professionals really put my mind at ease prior to hosting family. When stress levels are high, she was immediately responsive, kind, easy and seamless to get a hold of and work with.`,
+      reviewerName: "Jessica F",
+      designation: "Beverly Hills, CA",
     },
     {
-      desc: `Having a home based business is a wonderful asset to your life. The problem still stands it comes time advertise your business for a cheap cost. I know you have looked answer everywhere.`,
-      reviewerName: "Bostami Hasan",
-      designation: "Front-end Engineer",
+      desc: `I found Emily via recommendations on NextDoor. I am so glad I did. She and her team were thorough, hardworking and knowledgeable about cleaning older homes. Great value for a job well done.`,
+      reviewerName: "K. A.",
+      designation: "San Diego, CA",
     },
-  ];
+    {
+      desc: `I found an outstanding house cleaner who is very detailed and reliable. I am so pleased with her service, and her commitment.Emily does NOT charge for providing an estimate.`,
+      reviewerName: "Richard S.",
+      designation: "Poway, CA",
+    }, ];
 
   return (
     <Slider {...settings}>

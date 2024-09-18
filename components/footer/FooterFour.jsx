@@ -19,22 +19,6 @@ const linksFooterContent = [
     itemName: "About us",
     routePath: "/about-pm",
   },
-  {
-    itemName: "Features",
-    routePath: "/solution-management",
-  },
-  {
-    itemName: "Blog",
-    routePath: "/blog-v4",
-  },
-  {
-    itemName: "Help & Support",
-    routePath: "/login",
-  },
-  {
-    itemName: "API documentation",
-    routePath: "/doc-full-width",
-  },
 ];
 
 const legalFooterContent = [
@@ -90,15 +74,15 @@ const FooterFour = () => {
         <div className="logo">
           <Link     href="/">
             <Image width={136} 
-              height={43} src="/images/logo/deski_05.svg" alt="brand" />
+              height={136} src="/images/FoundwellNoText2.0.svg" alt="brand" />
           </Link>
         </div>
         <ul className="font-rubik mt-10">
           <li>
-            <a href="mailto:deskiinc@gmail.com">deskiinc@gmail.com</a>
+            <a href="mailto:@efounds@foundwellservices.com">efounds@foundwellservices.com</a>
           </li>
           <li>
-            <a href="tel:+761 412 3224">+761 412 3224</a>
+            <a href="tel:+19186953818">(918) 695-3818</a>
           </li>
         </ul>
       </div>

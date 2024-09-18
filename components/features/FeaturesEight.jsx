@@ -9,7 +9,7 @@ const FeatureContent = [
   {
     icon: "61",
     meta: "Register Here",
-    subTitle: `Complete a breif form to get started with our services.`,
+    subTitle: `Complete a brief form to get started with our services.`,
   },
   {
     icon: "62",

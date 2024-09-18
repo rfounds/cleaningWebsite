@@ -34,10 +34,10 @@ const ContactForm = () => {
       <div className="row controls">
         <div className="col-md-6">
           <div className="input-group-meta form-group mb-60">
-            <label>First Name</label>
+            <label>Name or Business</label>
             <input
               type="text"
-              placeholder="First Name"
+              placeholder="Name or Business"
               name="firstName"
               {...register("firstName")}
               className={`${errors.firstName ? "is-invalid" : ""}`}

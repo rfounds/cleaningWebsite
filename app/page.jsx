@@ -13,6 +13,8 @@ import FooterFour from "../components/footer/FooterFour";
 import CallToActionFive from "../components/call-to-action/CallToActionFive";
 import Image from "next/image";
 import './globals.css';
+import ContactForm from "../components/contact/form/ContactForm.jsx";
+import ContactAddressTwo from "../components/contact/address/ContactAddressTwo";
 
 export const metadata = {
   title: "Foundwell Services",
@@ -87,134 +89,17 @@ export default function Home() {
           <FancyFeatureEleven />
         </div>
       </div>
-      {/* /.fancy-feature-nine */}
-
-      {/* 
-     =============================================
-				Fqa Text Block
-		============================================== */}
-      <div className="fancy-text-block-six overflow-hidden mt-250 md-mt-200">
-        <div className="container">
-          <div className="row align-items-center">
-            <div
-              className="col-lg-6"
-              data-aos="fade-right"
-              data-aos-duration="1200"
-            >
-              <div className="title-style-five mb-35">
-                <h2>
-                  <span>Why you should</span> choose us?
-                </h2>
-              </div>
-              {/* End title */}
-            </div>
-
-            <div
-              className="col-lg-6 col-md-8 m-auto"
-              data-aos="fade-left"
-              data-aos-duration="1200"
-            >
-              <div className="illustration-holder d-flex justify-content-end md-mt-50">
-                <Image
-                  width={509}
-                  height={633}
-                  style={{ height: "fit-content" }}
-                  src="/images/media/img_58.png"
-                  alt="media"
-                />
-                <Image
-                  width={304}
-                  height={304}
-                  src="/images/shape/113.svg"
-                  alt="media"
-                  className="shapes shape-one"
-                />
-              </div>
-              {/* /.illustration-holder */}
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* /.why should you choose us */}
-
-      {/* 
-     =============================================
-				Pricing Section Three
-		============================================== */}
-      {/* <div className="pricing-section-three mt-250 mb-200 md-mt-150 md-mb-150">
-        <Image
-          width={13}
-          height={18}
-          src="/images/shape/107.svg"
-          alt="shape"
-          className="shapes shape-one"
-        />
-        <Image
-          width={20}
-          height={17}
-          src="/images/shape/108.svg"
-          alt="shape"
-          className="shapes shape-two"
-        />
-        <Image
-          width={16}
-          height={24}
-          src="/images/shape/109.svg"
-          alt="shape"
-          className="shapes shape-three"
-        />
-        <Image
-          width={26}
-          height={20}
-          src="/images/shape/110.svg"
-          alt="shape"
-          className="shapes shape-four"
-        />
-        <Image
-          width={17}
-          height={21}
-          src="/images/shape/111.svg"
-          alt="shape"
-          className="shapes shape-five"
-        />
-        <Image
-          width={22}
-          height={17}
-          src="/images/shape/112.svg"
-          alt="shape"
-          className="shapes shape-six"
-        />
-
-        <div className="container">
-          <div className="title-style-five text-center mb-50 md-mb-40">
-            <h6>Our Pricing</h6>
-            <div className="row">
-              <div className="col-lg-9 m-auto">
-                <h2>Unbeatable prices, no contracts, simple & easy</h2>
-              </div>
-            </div>
-          </div>
-
-          <div className="pricing-table-area-three">
-            <PricingThree />
-          </div> */}
-      {/* /.pricing-table-area-three */}
-      {/*         </div> */}
-      {/* ./container */}
-      {/*       </div>
-      /.pricing-section-three */}
-
       {/* 
      =============================================
 				Client Feedback Slider
 		============================================== */}
-      <div className="client-feedback-slider-three mb-250 ">
+      <div className="client-feedback-slider-three mb-250 mt-250">
         <div className="container">
           <div className="title-style-five text-center mb-80 md-mb-50">
             <div className="row">
               <div className="col-lg-7 col-md-9 m-auto">
                 <h2 data-aos="fade-up" data-aos-duration="1200">
-                  <span>Check what’s our client </span>say about us.
+                  <span>Check what our clients </span>say about us.
                 </h2>
               </div>
             </div>
@@ -242,44 +127,18 @@ export default function Home() {
         <Image
           width={82}
           height={82}
-          src="/images/media/img_59.png"
+          src="/images/openquote.svg"
           alt="media"
           className="shapes shape_1"
-        />
-        <Image
-          width={46}
-          height={46}
-          src="/images/media/img_60.png"
-          alt="media"
-          className="shapes shape_2"
-        />
-        <Image
-          width={87}
-          height={87}
-          src="/images/media/img_61.png"
-          alt="media"
-          className="shapes shape_3"
-        />
-        <Image
-          width={46}
-          height={46}
-          src="/images/media/img_62.png"
-          alt="media"
-          className="shapes shape_4"
-        />
-        <Image
-          width={111}
-          height={111}
-          src="/images/media/img_63.png"
-          alt="media"
-          className="shapes shape_5"
+          data-aos="fade-up" data-aos-duration="1200"
         />
         <Image
           width={57}
           height={57}
-          src="/images/media/img_64.png"
+          src="/images/endquote.svg"
           alt="media"
           className="shapes shape_6"
+          data-aos="fade-up" data-aos-duration="1200"
         />
       </div>
       {/* /.client-feedback-slider-three */}
@@ -301,9 +160,9 @@ export default function Home() {
         />
         <div className="container">
           <div className="title-style-five text-center mb-80 md-mb-60">
-            <h6>FAQ</h6>
+            <h6>Services</h6>
             <h2>
-              <span>Question & Answer</span>
+              <span>Services we offer</span>
             </h2>
           </div>
 
@@ -317,26 +176,32 @@ export default function Home() {
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <h3 className="font-rubik pb-30">Don’t find your answer?</h3>
-            <Link className="theme-btn-five" href="/contact-eo">
-              Contact us
-            </Link>
           </div>
         </div>
         {/* /.container */}
       </div>
       {/* End Question and answer */}
-
       {/* 
+
      =============================================
 			Call To Action
 		============================================== */}
-      <div className="fancy-short-banner-five pt-150 pb-150 md-pt-100 md-pb-100">
-        <div className="container">
-          <CallToActionFive />
-        </div>
-      </div>
+
       {/* End .fancy-short-banner-five */}
+<div className="main-page-wrapper">
+        <div className="title-style-five text-center mb-0 md-mb-0">
+          <h2>
+            <span>Contact Us</span>
+          </h2>
+        </div>
+        <div className="container">
+          <div className="form-style-light mt-0">
+            <ContactForm />
+          </div>
+        </div>
+
+    </div>
+  );
 
       {/* 
      =============================================
@@ -354,14 +219,7 @@ export default function Home() {
           <div className="bottom-footer-content">
             <p>
               Copyright @{new Date().getFullYear()}{" "}
-              <a
-                href="https://themeforest.net/user/ib-themes/portfolio"
-                target="_blank"
-                rel="noreferrer"
-              >
-                ib-themes
-              </a>{" "}
-              inc.
+              Foundwell Services
             </p>
           </div>
           {/* /.bottom-footer */}
