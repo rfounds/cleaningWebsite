@@ -5,65 +5,57 @@ import Image from "next/image";
 const linksFooterContent = [
   {
     itemName: "Home",
-    routePath: "/",
+    routePath: "#"
   },
   {
-    itemName: "Product",
-    routePath: "/product-customer-support",
+    itemName: "About Us",
+    routePath: "#about",
   },
   {
-    itemName: "Pricing",
-    routePath: "/pricing-pm",
+    itemName: "Our Mission",
+    routePath: "#mission",
   },
   {
-    itemName: "About us",
-    routePath: "/about-pm",
+    itemName: "Testimonials",
+    routePath: "#testimonials",
+  },
+  {
+    itemName: "Services",
+    routePath: "#services",
   },
 ];
 
 const legalFooterContent = [
   {
     itemName: "Terms of use",
-    routePath: "/terms-conditions",
+    routePath: "#",
   },
   {
-    itemName: "Terms & conditions",
-    routePath: "/terms-conditions",
+    itemName: "Privacy Policy",
+    routePath: "#",
   },
   {
-    itemName: "Privacy policy",
-    routePath: "/terms-conditions",
-  },
-  {
-    itemName: "Cookie policy",
-    routePath: "",
+    itemName: "Client Ettiquete",
+    routePath: "#",
   },
 ];
 
 const productsFooterContent = [
   {
     itemName: "Take the tour",
-    routePath: "/product-customer-support",
+    routePath: "#",
   },
   {
     itemName: "Team",
-    routePath: "/team-5",
+    routePath: "#",
   },
   {
     itemName: "Self Service",
-    routePath: "/features-customer-support",
-  },
-  {
-    itemName: "News",
-    routePath: "/blog-v3",
-  },
-  {
-    itemName: "About us",
-    routePath: "/about-doc",
+    routePath: "#",
   },
   {
     itemName: "Contact",
-    routePath: "/contact-cs",
+    routePath: "#",
   },
 ];
 

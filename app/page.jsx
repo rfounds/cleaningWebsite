@@ -34,6 +34,7 @@ export default function Home() {
      =============================================
 				Fancy Text Block
 		============================================== */}
+      <div id="about" className="relative -top-10"></div>
       <div className="fancy-text-block-nineteen mt-250 mb-200 md-mt-150 md-mb-150">
         <div className="container">
           <About />
@@ -41,7 +42,7 @@ export default function Home() {
       </div>
       {/* End  .fancy-text-block-nineteen*/}
 
-      <div className="fancy-feature-nine py-0">
+      <div className="fancy-feature-nine py-0 mt-12">
         <Image
           width={14}
           height={19}
@@ -84,6 +85,7 @@ export default function Home() {
           alt="shape"
           className="shapes shape-six"
         />
+
 
         <div className="container">
           <FancyFeatureEleven />
