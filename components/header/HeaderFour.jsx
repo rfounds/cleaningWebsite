@@ -49,6 +49,14 @@ const HeaderFour = () => {
           </div>
           {/* End Logo */}
 
+          <div className="flex-1 flex justify-center">
+            <Image
+              width={450}
+              height={180}
+              src="../images/FoundwellText.svg"
+              alt="Foundwell Services logo"
+            />
+          </div>
           <nav id="mega-menu-holder" className="navbar navbar-expand-lg">
             <div className="container nav-container">
               <div
@@ -56,18 +64,11 @@ const HeaderFour = () => {
                 id="navbarSupportedContent"
               >
                 <div className="d-lg-flex align-items-center">
-                  <MegaMenu />
                   {/* End MegaMenu */}
-
                   <ul className="right-button-group d-flex align-items-center justify-content-center">
                     <li>
-                      <Link href="/login" className="signIn-action">
-                        Login
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/signup" className="theme-btn-five">
-                        Sign Up
+                      <Link href="#contact" className="theme-btn-five">
+                        Contact Us
                       </Link>
                     </li>
                   </ul>
@@ -79,7 +80,6 @@ const HeaderFour = () => {
           {/* End nav */}
         </div>
 
-        <MegaMenuMobile />
 
         {/* 	End Mega Menu for Mobile */}
       </div>

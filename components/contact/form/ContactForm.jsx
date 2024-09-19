@@ -53,10 +53,10 @@ const ContactForm = () => {
 
         <div className="col-md-6">
           <div className="input-group-meta form-group mb-60">
-            <label>Last Name</label>
+            <label>Phone Number</label>
             <input
               type="text"
-              placeholder="Last Name"
+              placeholder="Phone Number"
               name="lastName"
               {...register("lastName")}
               className={`${errors.lastName ? "is-invalid" : ""}`}
