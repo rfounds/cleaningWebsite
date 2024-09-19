@@ -67,7 +67,7 @@ const HeaderFour = () => {
                   {/* End MegaMenu */}
                   <ul className="right-button-group d-flex align-items-center justify-content-center">
                     <li>
-                      <Link href="#contact" className="theme-btn-five">
+                      <Link href="#contact" className="theme-btn-five ">
                         Contact Us
                       </Link>
                     </li>
