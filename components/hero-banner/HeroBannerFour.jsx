@@ -62,7 +62,7 @@ const HeroBannerFour = () => {
                 Clean spaces, happy faces
               </p>
               <Link
-                href="/login"
+                href="#contact"
                 className="theme-btn-five"
                 data-aos="fade-up"
                 data-aos-duration="1200"
