@@ -50,11 +50,11 @@ const HeroBannerFour = () => {
 
           <div className="col-lg-6 order-lg-first">
             <div className="text-wrapper ">
-              <h1 data-aos="fade-up" data-aos-duration="1200">
+              <h1 data-aos="fade-up" data-aos-duration="1200" >
                 San Diego Based Specialized Cleaning Service.
               </h1>
               <p
-                className="sub-text pb-60"
+                className="sub-text pt-60 pb-60"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="100"
