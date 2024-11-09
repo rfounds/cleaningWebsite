@@ -49,12 +49,12 @@ const HeroBannerFour = () => {
           {/* End .col */}
 
           <div className="col-lg-6 order-lg-first">
-            <div className="text-wrapper">
+            <div className="text-wrapper ">
               <h1 data-aos="fade-up" data-aos-duration="1200">
-                Cleaning services In the San Diego area.
+                San Diego Based Specialized Cleaning Service.
               </h1>
               <p
-                className="sub-text"
+                className="sub-text pb-60"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="100"

@@ -49,7 +49,7 @@ const HeaderFour = () => {
           </div>
           {/* End Logo */}
 
-          <div className="flex-1 flex justify-center">
+          <div className="flex-1 flex justify-center pl-96 !important">
             <Image
               width={450}
               height={180}
