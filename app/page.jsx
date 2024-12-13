@@ -6,7 +6,6 @@ import HeroBannerFour from "../components/hero-banner/HeroBannerFour";
 import About from "../components/about/About";
 import FancyFeatureEleven from "../components/features/FancyFeatureEleven";
 import Faq from "../components/faq/Faq";
-import PricingThree from "../components/pricing/PricingThree";
 import TestimonialThree from "../components/testimonial/TestimonialThree";
 import FaqFour from "../components/faq/FaqFour";
 import FooterFour from "../components/footer/FooterFour";
