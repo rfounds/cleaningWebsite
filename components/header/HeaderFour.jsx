@@ -32,8 +32,8 @@ const HeaderFour = () => {
       <div
         className={
           navbar
-            ? "theme-main-menu sticky-menu theme-menu-four bg-none fixed"
-            : "theme-main-menu sticky-menu theme-menu-four bg-none"
+            ? "theme-main-menu sticky-menu bg-none fixed"
+            : "theme-main-menu sticky-menu bg-none"
         }
       >
         <div className="d-flex align-items-center justify-content-between">
