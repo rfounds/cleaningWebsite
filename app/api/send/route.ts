@@ -12,7 +12,7 @@ export async function POST(request: Request) {
     // Send email to the website owner
     const { data: ownerData, error: ownerError } = await resend.emails.send({
       from: 'Robby Founds<admin@foundwellservices.com>',
-      to: ['r2founds@gmail.com'],
+      to: ['efounds@foundwellservices.com'],
       subject: 'Foundwell Services Inquiry',
       react: EmailTemplate({ firstName, lastName, email, sendMessage }),
     });
