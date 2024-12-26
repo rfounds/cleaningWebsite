@@ -35,8 +35,8 @@ const legalFooterContent = [
     routePath: "#",
   },
   {
-    itemName: "Client Ettiquete",
-    routePath: "#",
+    itemName: "Client Etiquete",
+    routePath: "/client-etiquette",
   },
 ];
 

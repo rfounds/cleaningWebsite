@@ -33,8 +33,7 @@ export default function Home() {
      =============================================
 				Fancy Text Block
 		============================================== */}
-      <div id="about" className="relative -top-10"></div>
-      <div className="fancy-text-block-nineteen mt-250 mb-200 md-mt-150 md-mb-150">
+      <div id="about" className="fancy-text-block-nineteen mt-250 mb-200 md-mt-150 md-mb-150">
         <div className="container">
           <About />
         </div>
@@ -86,6 +85,7 @@ export default function Home() {
         />
 
 
+        <div id="mission" className="relative -top-10"></div>
         <div className="container">
           <FancyFeatureEleven />
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
      =============================================
 				Client Feedback Slider
 		============================================== */}
-      <div className="client-feedback-slider-three mb-250 mt-250">
+      <div id="testimonials" className="client-feedback-slider-three mb-250 mt-250">
         <div className="container">
           <div className="title-style-five text-center mb-80 md-mb-50">
             <div className="row">
@@ -159,7 +159,7 @@ export default function Home() {
           alt="shape"
           className="shapes shape-two"
         />
-        <div className="container">
+        <div id="services" className="container">
           <div className="title-style-five text-center mb-80 md-mb-60">
             <h6>Services</h6>
             <h2>
@@ -217,9 +217,9 @@ export default function Home() {
           {/* /.container */}
         </div>
 
-        <div className="container">
+        <div className="container w-0">
           <div className="bottom-footer-content">
-            <p>
+            <p className="w-0">
               Copyright @{new Date().getFullYear()}{" "}
               Foundwell Services
             </p>

@@ -50,12 +50,14 @@ const HeaderFour = () => {
           {/* End Logo */}
 
           <div className="flex-1 flex justify-center pl-96 !important">
-            <Image
-              width={450}
-              height={180}
-              src="../images/FoundwellText.svg"
-              alt="Foundwell Services logo"
-            />
+            <Link href="/">
+              <Image
+                width={450}
+                height={180}
+                src="../images/FoundwellText.svg"
+                alt="Foundwell Services logo"
+              />
+            </Link>
           </div>
           <nav id="mega-menu-holder" className="navbar navbar-expand-lg">
             <div className="container nav-container">

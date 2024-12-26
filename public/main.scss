@@ -42,4 +42,6 @@ Primary use:  ib-themes
 @import "./scss/menu";
 @import "./scss/custom";
 
-
+html {
+  scroll-padding-top: 18rem; /* Adjust this value to match your header's height */
+}
