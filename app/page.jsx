@@ -190,7 +190,7 @@ export default function Home() {
 
       <div id="contact" className="relative -top-10 "></div>
       {/* End .fancy-short-banner-five */}
-<div className="main-page-wrapper " >
+      <div className="main-page-wrapper " >
         <div className="title-style-five text-center mb-0 md-mb-0">
           <h2>
             <span>Contact Us</span>
@@ -202,32 +202,9 @@ export default function Home() {
           </div>
         </div>
 
-    </div>
-  );
+      </div>
+      );
 
-      {/* 
-     =============================================
-			Footer Four
-		============================================== */}
-      <footer className="theme-footer-four">
-        <div className="top-footer">
-          <div className="container">
-            <FooterFour />
-          </div>
-          {/* /.container */}
-        </div>
-
-        <div className="container w-0">
-          <div className="bottom-footer-content">
-            <p className="w-0">
-              Copyright @{new Date().getFullYear()}{" "}
-              Foundwell Services
-            </p>
-          </div>
-          {/* /.bottom-footer */}
-        </div>
-      </footer>
-      {/* /.theme-footer-four */}
     </div>
   );
 }

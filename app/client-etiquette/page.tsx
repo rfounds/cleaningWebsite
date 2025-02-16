@@ -16,7 +16,6 @@ export default function ClientEtiquettePage() {
       <div className="fancy-text-block-nineteen mt-100 mb-200 md-mt-150 md-mb-150">
         <ClientEtiquette />
       </div>
-      <FooterFour />
     </div>
   );
 }

@@ -32,7 +32,7 @@ const legalFooterContent = [
   },
   {
     itemName: "Privacy Policy",
-    routePath: "#",
+    routePath: "/privacy-policy",
   },
   {
     itemName: "Client Etiquete",
