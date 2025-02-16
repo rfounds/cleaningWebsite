@@ -188,7 +188,7 @@ export default function Home() {
 			Call To Action
 		============================================== */}
 
-      <div id="contact" className="relative -top-10 "></div>
+      <div id="contact" className="relative "></div>
       {/* End .fancy-short-banner-five */}
       <div className="main-page-wrapper " >
         <div className="title-style-five text-center mb-0 md-mb-0">

@@ -38,9 +38,9 @@ export default function RootLayout({ children }) {
           {/* /.container */}
         </div>
 
-        <div className="container w-0">
-          <div className="bottom-footer-content">
-            <p className="w-0">
+        <div className="container ">
+          <div className="bottom-footer-content w-25">
+            <p className="">
               Copyright @{new Date().getFullYear()}{" "}
               Foundwell Services
             </p>

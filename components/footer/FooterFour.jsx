@@ -5,23 +5,23 @@ import Image from "next/image";
 const linksFooterContent = [
   {
     itemName: "Home",
-    routePath: "#"
+    routePath: "/"
   },
   {
     itemName: "About Us",
-    routePath: "#about",
+    routePath: "/#about",
   },
   {
     itemName: "Our Mission",
-    routePath: "#mission",
+    routePath: "/#mission",
   },
   {
     itemName: "Testimonials",
-    routePath: "#testimonials",
+    routePath: "/#testimonials",
   },
   {
     itemName: "Services",
-    routePath: "#services",
+    routePath: "/#services",
   },
 ];
 
@@ -42,20 +42,12 @@ const legalFooterContent = [
 
 const productsFooterContent = [
   {
-    itemName: "Take the tour",
-    routePath: "#",
-  },
-  {
     itemName: "Team",
-    routePath: "#",
-  },
-  {
-    itemName: "Self Service",
-    routePath: "#",
+    routePath: "/#team",
   },
   {
     itemName: "Contact",
-    routePath: "#",
+    routePath: "/#contact",
   },
 ];
 
@@ -105,7 +97,7 @@ const FooterFour = () => {
       {/* /.footer-list */}
 
       <div className="col-xl-2 col-lg-3 col-md-4 footer-list">
-        <h5 className="footer-title font-slab">Products</h5>
+        <h5 className="footer-title font-slab">About</h5>
         <ul className="pe-5">
           {productsFooterContent.map((list, i) => (
             <li key={i}>
