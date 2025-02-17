@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           {/* /.container */}
         </div>
 
-        <div className="container ">
+        <div className="container mt-3">
           <div className="bottom-footer-content w-25">
             <p className="">
               Copyright @{new Date().getFullYear()}{" "}

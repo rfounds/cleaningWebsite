@@ -8,7 +8,6 @@ import FancyFeatureEleven from "../components/features/FancyFeatureEleven";
 import Faq from "../components/faq/Faq";
 import TestimonialThree from "../components/testimonial/TestimonialThree";
 import FaqFour from "../components/faq/FaqFour";
-import FooterFour from "../components/footer/FooterFour";
 import CallToActionFive from "../components/call-to-action/CallToActionFive";
 import Image from "next/image";
 import './globals.css';
@@ -17,7 +16,7 @@ import ContactAddressTwo from "../components/contact/address/ContactAddressTwo";
 
 export const metadata = {
   title: "Foundwell Services",
-  description: `Clean with Care`,
+  description: `A Dream Clean Come True`,
 };
 
 export default function Home() {

@@ -38,13 +38,13 @@ const HeroBannerFour = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 order-lg-last">
-              <Image
-                src="/images/dining.jpg"
-                alt="shape"
-                className="illustration"
-                width={660}
-                height={471}
-              />
+            <Image
+              src="/images/dining.jpg"
+              alt="shape"
+              className="illustration"
+              width={660}
+              height={471}
+            />
           </div>
           {/* End .col */}
 
@@ -59,7 +59,7 @@ const HeroBannerFour = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                Clean spaces, happy faces
+                A Dream Clean Come True
               </p>
               <Link
                 href="#contact"

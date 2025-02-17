@@ -8,10 +8,6 @@ const linksFooterContent = [
     routePath: "/"
   },
   {
-    itemName: "About Us",
-    routePath: "/#about",
-  },
-  {
     itemName: "Our Mission",
     routePath: "/#mission",
   },
@@ -42,6 +38,10 @@ const legalFooterContent = [
 
 const productsFooterContent = [
   {
+    itemName: "About Us",
+    routePath: "/about-us",
+  },
+  {
     itemName: "Team",
     routePath: "/#team",
   },
@@ -56,8 +56,8 @@ const FooterFour = () => {
     <div className="row justify-content-end">
       <div className="col-xl-4 col-lg-3 col-12 footer-about-widget">
         <div className="logo">
-          <Link     href="/">
-            <Image width={136} 
+          <Link href="/">
+            <Image width={136}
               height={136} src="/images/FoundwellNoText2.0.svg" alt="brand" />
           </Link>
         </div>
@@ -77,7 +77,7 @@ const FooterFour = () => {
         <ul>
           {linksFooterContent.map((list, i) => (
             <li key={i}>
-              <Link     href={list.routePath}>{list.itemName}</Link>
+              <Link href={list.routePath}>{list.itemName}</Link>
             </li>
           ))}
         </ul>
@@ -89,7 +89,7 @@ const FooterFour = () => {
         <ul>
           {legalFooterContent.map((list, i) => (
             <li key={i}>
-              <Link     href={list.routePath}>{list.itemName}</Link>
+              <Link href={list.routePath}>{list.itemName}</Link>
             </li>
           ))}
         </ul>
@@ -101,7 +101,7 @@ const FooterFour = () => {
         <ul className="pe-5">
           {productsFooterContent.map((list, i) => (
             <li key={i}>
-              <Link     href={list.routePath}>{list.itemName}</Link>
+              <Link href={list.routePath}>{list.itemName}</Link>
             </li>
           ))}
         </ul>
