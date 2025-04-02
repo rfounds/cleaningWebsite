@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Script from 'next/script';
 
+import EmbeddedForm from "../components/tidyyoursales/EmbeddedForm.jsx";
 import Header from "../components/header/HeaderFour";
 import HeroBannerFour from "../components/hero-banner/HeroBannerFour";
 import About from "../components/about/About";
@@ -186,22 +188,51 @@ export default function Home() {
      =============================================
 			Call To Action
 		============================================== */}
-
-      <div id="contact" className="relative "></div>
-      {/* End .fancy-short-banner-five */}
-      <div className="main-page-wrapper " >
-        <div className="title-style-five text-center mb-0 md-mb-0">
-          <h2>
-            <span>Contact Us</span>
-          </h2>
-        </div>
-        <div className="container">
-          <div className="form-style-light mt-0">
-            <ContactForm />
-          </div>
-        </div>
-
+      <div className="title-style-five text-center mb-0 md-mb-0">
+        <h2>
+          <span>Contact Us</span>
+        </h2>
       </div>
+      
+      <div style={{ height: '796px' }}>
+        <iframe
+          src="https://link.foundwellservices.com/widget/form/tBG103oWQ417dT3LubY9"
+          style={{
+            width: '100%',
+            height: '100%',
+            border: 'none',
+            borderRadius: '3px'
+          }}
+          id="inline-tBG103oWQ417dT3LubY9" 
+          data-layout="{'id':'INLINE'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="Contact Form"
+          data-height="796"
+          data-layout-iframe-id="inline-tBG103oWQ417dT3LubY9"
+          data-form-id="tBG103oWQ417dT3LubY9"
+          title="Contact Form"
+        />
+      </div>
+      <Script src="https://link.foundwellservices.com/js/form_embed.js" />
+      {/* End .fancy-short-banner-five */}
+      {/* <div className="main-page-wrapper " > */}
+      {/*   <div className="title-style-five text-center mb-0 md-mb-0"> */}
+      {/*     <h2> */}
+      {/*       <span>Contact Us</span> */}
+      {/*     </h2> */}
+      {/*   </div> */}
+      {/*   <div className="container"> */}
+      {/*     <div className="form-style-light mt-0"> */}
+      {/*       <ContactForm /> */}
+      {/*     </div> */}
+      {/*   </div> */}
+      {/**/}
+      {/* </div> */}
       );
 
     </div>
