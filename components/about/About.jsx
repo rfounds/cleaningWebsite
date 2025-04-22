@@ -17,7 +17,7 @@ const About = () => {
             </h2>
           </div>
           <p className="font-rubik">
-            Welcome to Foundwell Services, your premier partner in sub-leasing and real estate-focused cleaning solutions. At Foundwell Services, we understand the pivotal role cleanliness plays in presenting properties at their best.
+            Welcome to Foundwell Services LLC, your premier partner in sub-leasing and real estate-focused cleaning solutions. At Foundwell Services LLC, we understand the pivotal role cleanliness plays in presenting properties at their best.
           </p>
           <div className="name font-slab">Emily Founds, Owner</div>
         </div>
