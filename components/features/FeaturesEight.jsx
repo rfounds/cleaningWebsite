@@ -14,7 +14,7 @@ const FeatureContent = [
   {
     icon: "62",
     meta: "Free Quote",
-    subTitle: `Recieve your free quote the next day.`,
+    subTitle: `Receive your free quote the next day.`,
   },
 ];
 
