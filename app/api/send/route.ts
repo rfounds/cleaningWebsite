@@ -1,6 +1,7 @@
 import { EmailTemplate } from '../../../components/email/EmailTemplate';
 import { ConfirmationEmailTemplate } from '../../../components/email/ConfirmationEmailTemplate';
 import { Resend } from 'resend';
+import React from 'react';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -14,7 +15,16 @@ export async function POST(request: Request) {
       from: 'Robby Founds<admin@foundwellservices.com>',
       to: ['efounds@foundwellservices.com'],
       subject: 'Foundwell Services Inquiry',
-      react: EmailTemplate({ firstName, lastName, email, sendMessage }),
+      html: `
+        <div style="font-family: Arial, sans-serif; line-height: 1.6">
+          <h1>New Message Received</h1>
+          <p><strong>Name or Business:</strong> ${firstName}</p>
+          <p><strong>Phone Number:</strong> ${lastName}</p>
+          <p><strong>Email Address:</strong> ${email}</p>
+          <p><strong>Message:</strong></p>
+          <p>${sendMessage}</p>
+        </div>
+      `,
     });
 
     if (ownerError) {
@@ -26,8 +36,17 @@ export async function POST(request: Request) {
     const { data: userData, error: userError } = await resend.emails.send({
       from: 'Foundwell Services <noreply@foundwellservices.com>',
       to: [email],
-      subject: 'We’ve Received Your Message!',
-      react: ConfirmationEmailTemplate({ firstName, sendMessage }),
+      subject: "We've Received Your Message!",
+      html: `
+        <div style="font-family: Arial, sans-serif; line-height: 1.6">
+          <h1>Thank you for contacting Foundwell Services!</h1>
+          <p>Hello ${firstName},</p>
+          <p>We've received your message and will get back to you shortly.</p>
+          <p>Here's a copy of your message:</p>
+          <p>${sendMessage}</p>
+          <p>Best regards,<br/>The Foundwell Services Team</p>
+        </div>
+      `,
     });
 
     if (userError) {
