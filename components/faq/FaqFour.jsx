@@ -38,7 +38,7 @@ const FaqContent = [
   },
   {
     title: "Airbnb Cleaning Services",
-    desc: `At Foundwell Services we ensure that your Airbnb property is immaculately clean and inviting for every guest arrival. With our dedicated team and tailored cleaning approach, we strive to help you achieve outstanding guest satisfaction and maximize your rental income.`,
+    desc: `At Foundwell Services LLC we ensure that your Airbnb property is immaculately clean and inviting for every guest arrival. With our dedicated team and tailored cleaning approach, we strive to help you achieve outstanding guest satisfaction and maximize your rental income.`,
     expand: "f",
   },
 ];

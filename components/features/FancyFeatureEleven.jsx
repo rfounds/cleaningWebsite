@@ -19,7 +19,7 @@ const FancyFeatureEleven = () => {
             >
               <h3 className="title">Our Mission</h3>
               <p>
-                Our mission at Foundwell Services is to provide exceptional cleaning services tailored specifically for the real estate industry. We aim to support our clients in showcasing properties in the best possible light, enhancing their appeal to potential buyers or tenants.
+                Our mission at Foundwell Services LLC is to provide exceptional cleaning services tailored specifically for the real estate industry. We aim to support our clients in showcasing properties in the best possible light, enhancing their appeal to potential buyers or tenants.
               </p>
             </div>
           </div>

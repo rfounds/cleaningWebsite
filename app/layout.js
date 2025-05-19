@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
           <div className="bottom-footer-content w-25">
             <p className="">
               Copyright @{new Date().getFullYear()}{" "}
-              Foundwell Services
+              Foundwell Services LLC
             </p>
           </div>
           {/* /.bottom-footer */}

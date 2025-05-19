@@ -188,7 +188,7 @@ export default function Home() {
      =============================================
 			Call To Action
 		============================================== */}
-      <div className="title-style-five text-center mb-0 md-mb-0">
+      <div id="contact" className="title-style-five text-center mb-0 md-mb-0">
         <h2>
           <span>Contact Us</span>
         </h2>
